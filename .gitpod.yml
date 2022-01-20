@@ -1,6 +1,8 @@
 tasks:
-  - init: |
+  - name: Run YottaDB and get into prompt
+    init: |
       echo 'TODO: build project'
     command: |
       docker run -it ramb0/yottadb-mqtt ydb
-
+  - name: Install mosquitto client and subscribe to topic
+    command: sudo apt-get update && sudo apt-get install -y mosquitto-clients && mosquitto_sub -h test.mosquitto.org -p 1883 -t yottadb/test
