@@ -1,5 +1,7 @@
 # YottaDB-MQTT
 
+![example workflow](https://github.com/RamSailopal/YottaDB-MQTT/actions/workflows/deploy.yml/badge.svg)
+
 Containerised YottaDB native MQTT subscriber/publisher.
 
 Build using the following code:
