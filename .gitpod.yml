@@ -1,0 +1,6 @@
+tasks:
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      docker run -it ramb0/yottadb-mqtt ydb
+
