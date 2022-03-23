@@ -1,4 +1,4 @@
-FROM docker.io/yottadb/yottadb-base
+FROM docker.io/yottadb/yottadb-base:r1.32
 RUN ln -s /opt/yottadb/current/ydb /usr/local/bin/ydb \
     && ln -sf /bin/bash /bin/sh \
     && apt-get update \
